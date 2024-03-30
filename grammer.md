@@ -35,7 +35,12 @@ original = "abc123abc"
 replaced = String.replace(original, ~r/\d+/, "HelloWorld", global: true)
 IO.puts replaced
 ```
-  
+#### 文字列のトリム
+```
+trimmed = String.trim("###Hello, World!###", "#")
+IO.puts trimmed
+```
+
 ### リスト
 - 配列のキーにアクセスver
 - リストの要素を結合するver: list_join_helloworld.exs
