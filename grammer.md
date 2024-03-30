@@ -26,7 +26,7 @@ IO.puts greeting
 #### 文字列の置換
 ```
 original = "message"
-replaced = String.replace(original, "messge", "HelloWorld")
+replaced = String.replace(original, "message", "HelloWorld")
 IO.puts replaced
 ```
 
