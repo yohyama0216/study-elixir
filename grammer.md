@@ -13,9 +13,11 @@ HelloWorldを色々な形で行うことで慣れるこころみ。
 - 文字列の置換ver
 - 文字列の正規表現置換
 ### リスト
-- 配列の要素にアクセスver
 - 配列のキーにアクセスver
 - リストの要素を結合するver: list_join_helloworld.exs
+### マップ
+- マップの要素にアクセスver:map_helloworld.exs
+
 
 ### 条件文
 - 条件文ver
