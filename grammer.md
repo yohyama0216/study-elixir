@@ -29,11 +29,13 @@ original = "message"
 replaced = String.replace(original, "message", "HelloWorld")
 IO.puts replaced
 ```
-
-変数を使うver: variable_helloworld.exs
-- 文字列の結合ver
-- 文字列の置換ver
-- 文字列の正規表現置換
+#### 文字列の正規表現置換
+```
+original = "abc123abc"
+replaced = String.replace(original, ~r/\d+/, "HelloWorld", global: true)
+IO.puts replaced
+```
+  
 ### リスト
 - 配列のキーにアクセスver
 - リストの要素を結合するver: list_join_helloworld.exs
