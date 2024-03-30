@@ -16,6 +16,14 @@ message = "HelloWorld"
 IO.puts message
 ```
 
+#### 文字列の結合
+```
+hello = "Hello"
+world = "World"
+greeting = hello <> ", " <> world <> "!"
+IO.puts greeting
+```
+
 変数を使うver: variable_helloworld.exs
 - 文字列の結合ver
 - 文字列の置換ver
