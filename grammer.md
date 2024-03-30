@@ -1,9 +1,8 @@
-# Elixir文法になれよう。
+# HelloWorldを通してElixir文法になれよう。
 HelloWorldを色々な形で行うことで慣れるこころみ。
 
 1. 環境構築
 初心者のうちは面倒なのでPaiza.ioを使う。
-
 
 ## 入門編
 ### 基本文法
@@ -11,7 +10,13 @@ HelloWorldを色々な形で行うことで慣れるこころみ。
 ```
 IO.puts "HelloWorld"
 ```
-- 変数を使うver: variable_helloworld.exs
+#### 変数を使う
+```
+message = "HelloWorld"
+IO.puts message
+```
+
+変数を使うver: variable_helloworld.exs
 - 文字列の結合ver
 - 文字列の置換ver
 - 文字列の正規表現置換
