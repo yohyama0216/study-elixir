@@ -23,6 +23,12 @@ world = "World"
 greeting = hello <> ", " <> world <> "!"
 IO.puts greeting
 ```
+#### 文字列の置換
+```
+original = "message"
+replaced = String.replace(original, "messge", "HelloWorld")
+IO.puts replaced
+```
 
 変数を使うver: variable_helloworld.exs
 - 文字列の結合ver
