@@ -7,7 +7,10 @@ HelloWorldを色々な形で行うことで慣れるこころみ。
 
 ## 入門編
 ### 基本文法
-- シンプルver: simple_helloworld.exs
+#### シンプルなやつ
+```
+IO.puts "HelloWorld"
+```
 - 変数を使うver: variable_helloworld.exs
 - 文字列の結合ver
 - 文字列の置換ver
