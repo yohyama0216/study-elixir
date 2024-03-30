@@ -24,8 +24,11 @@ IO.puts message
 - 配列のキーにアクセスver
 - リストの要素を結合するver: list_join_helloworld.exs
 ### マップ
-- マップの要素にアクセスver:map_helloworld.exs
-
+#### マップの要素にアクセス
+```
+message = %{"text" => "HelloWorld"}
+IO.puts message["text"]
+```
 
 ### 条件文
 - 条件文ver
