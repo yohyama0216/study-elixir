@@ -7,15 +7,15 @@ HelloWorldを色々な形で行うことで慣れるこころみ。
 
 ## 入門編
 ### 基本文法
-- シンプルver
-- 変数を使うver
+- シンプルver: simple_helloworld.exs
+- 変数を使うver: variable_helloworld.exs
 - 文字列の結合ver
 - 文字列の置換ver
 - 文字列の正規表現置換
-### 配列
+### リスト
 - 配列の要素にアクセスver
 - 配列のキーにアクセスver
-- 配列の要素を結合するver
+- リストの要素を結合するver: list_join_helloworld.exs
 
 ### 条件文
 - 条件文ver
