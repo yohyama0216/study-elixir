@@ -77,9 +77,6 @@ IO.puts message["text"]
 
 ### テスト
 
-## 応用
-
-
 
 - 
 
