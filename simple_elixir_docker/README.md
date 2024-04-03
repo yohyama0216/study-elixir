@@ -5,4 +5,8 @@
 docker build -t elixir-cli-app .
 
 ## コンテナ起動&コンテナに入る
-docker run -it elixir-cli-app bash
+### マウントを追加ver
+docker run -v %cd%/lib:/app/lib -it elixir-cli-app bash
+// docker run -v $(pwd)/lib:/app/lib -it elixir-cli-app bash
+
+
